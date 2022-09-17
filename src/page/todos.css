@@ -1,0 +1,49 @@
+
+.App{
+  background-color: honeydew !important;
+  margin: 100px;
+}
+.title {
+  font-family: tahoma;
+  color: black;
+  padding-top: 2rem;
+}
+@media screen and (min-width: 1080px) {
+  .label {
+    padding: 1rem 25rem !important;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .label {
+    padding: 1rem 5rem  !important;
+  }
+}
+.add {
+  border: 2px solid black !important;
+}
+@media screen and (min-width: 432px) {
+  .list {
+    border: 2px solid black !important;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+    padding: 0.2rem;
+  }
+}
+.card {
+  display: flex;
+  /* flex-direction: column; */
+  background: rgb(180, 182, 218);
+  background: radial-gradient(
+    circle,
+    hsla(237, 34%, 78%, 0.9) 0%,
+    hsla(219, 88%, 94%, 0.9) 100%
+  );
+  margin: 0 1rem 1rem 0;
+  height: 8rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+
